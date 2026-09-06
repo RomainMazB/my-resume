@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://gitresume.co/schema/resume.schema.json
+personalInfo:
+  name: BILLOIR Romain
+  title: Développeur web
+  email: romainmazb@gmail.com
+  phone: "+33783349284"
+  links:
+    - label: GitHub
+      url: https://github.com/romainmazb
+    - label: Blog
+      url: https://romainmazb.dev/
+sections:
+  - type: summary
+    content: "**Développeur senior passionné** depuis plus de 15 ans, spécialisé dans les applications web et animé par une forte culture technique. **Expert Laravel**, contributeur du framework et de Guzzle, j’ai également évolué dans des environnements variés en réalisant des jeux vidéos et applications en C#, Rust, Lua. Mon expérience récente dans l’IA chez Chat3D a renforcé mon intérêt pour ce domaine, que j’intègre désormais au quotidien dans ma façon de concevoir et développer des logiciels."
+  - type: experience
+    items:
+      - position: Sénior Dév Laravel/Vue.js
+        organization: Chat3D / Overnight Studio
+        location: 100% remote
+        startDate: 2025-01
+        endDate: 2026-05
+        description: |-
+          Création, maintenance et améliorations d'un chatbot IA de génération d'assets 3D et de sa
+          plateforme communautaire.
+          Création d'un ERP interne pour le suivi et l'optimisation de la production outsourcing
+          d'artiste 3D en freelance (Overnight Studio).
+          -  Conception et développement de fonctionnalités back & front sur une plateforme IA/
+          community et un ERP interne, avec Laravel 11/12/13, Vue 3 Composition API et Nuxt 4
+          - Conception de base de données relationelles avec PostgreSQL
+          - Développement en TDD sur l'ensemble des fonctionnalités : endpoints API, logique métier
+          ERP, permissions, workﬂows de production et intégrations externes
+          - Création et maintenance de pipelines CI/CD GitHub Actions pour ﬁabiliser les
+          déploiements et garantir la qualité de code avec de Laravel Pint, PestPHP et Larastan
+          - Amélioration continue de la qualité du code : refactoring, correction de dette technique,
+          optimisation des requêtes et stabilisation des parcours utilisateurs
+          - Administration système : conﬁguration Nginx, php-fpm, PM2, redis et supervision des
+          environnements applicatifs via Sentry
+          - Intégration d’API tierces, notamment OpenAI, Stripe et Google, avec gestion des erreurs,
+          sécurisation des échanges et traitements asynchrones lorsque nécessaire
+          - Rédaction de documentations techniques à des ﬁns d'utilisation par les utilisateurs de
+          l'application avec VitePress
+          - Collaboration en full remote avec une méthodologie agile : kickoﬀ hebdomadaire, daily
+          meetings, reviews et échanges réguliers avec les parties prenantes produit/métier
+      - position: Sénior Dév Laravel/Vue.js
+        organization: Maz Laboratory
+        location: 100% remote
+        startDate: 2022-08
+        endDate: 2025-08
+        description: |-
+          Création, maintenance et amélioration en sous traitance du jeu web Terrajdr.com et en indépendant de Mylen.forum
+          -Laravel 5.8 à 11 et Vue.js 2 & 3 avec Nuxt (Composition API)
+      - position: Développeur Fullstack Symfony/CMS & React / Angular
+        organization: Getup Agency
+        location: La Farlède
+        startDate: 2019-10
+        endDate: 2021-10
+        description: |-
+          Création, maintenance et améliorations de sites vitrines et de grande plateformes e-commerce
+          - Maintenance et amélioration Symfony du site Helipass.com
+          - Création, maintenance et amélioration sur Prestashop du site ElecDirect.fr
+      - position: Stagiaire Développeur Fullstack WordPress & Vue.js
+        organization: Jeff Concept
+        location: Toulon
+        startDate: 2019-10
+        endDate: 2019-10
+        description: Réalisation d'un tunel de vente en Vue.js et intégration à WordPress
+  - type: education
+    items:
+      - institution: Titre professionnel Développeur Web et Web Mobile
+        degree: RNCP37674
+        startDate: 2022-06
+        endDate: 2022-06
+  - type: generic
+    title: Projets
+    items:
+      - title: Participations GitHub
+        url: https://t.ly/LCa0w
+        description: 180+ Pull Requests sur des dizaines de projets internationaux
+      - title: Winter-Tricks
+        url: https://wintertricks.com
+        description: Première plateforme d'échange de tips & tricks pour WinterCMS
+      - title: Teardrops of Mylen
+        url: https://mylen.forum
+        description: Jeu de rôle sur navigateur
