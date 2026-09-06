@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://gitresume.co/schema/resume.schema.json
 personalInfo:
-  name: BILLOIR Romain
-  title: Développeur web
+  name: Romain 'Maz' BILLOIR
+  title: Développeur full-stack sénior
   email: romainmazb@gmail.com
   phone: "+33783349284"
   links:
@@ -11,8 +11,10 @@ personalInfo:
       url: https://romainmazb.dev/
 sections:
   - type: summary
+    title: En bref
     content: "**Développeur senior passionné** depuis plus de 15 ans, spécialisé dans les applications web et animé par une forte culture technique. **Expert Laravel**, contributeur du framework et de Guzzle, j’ai également évolué dans des environnements variés en réalisant des jeux vidéos et applications en C#, Rust, Lua. Mon expérience récente dans l’IA chez Chat3D a renforcé mon intérêt pour ce domaine, que j’intègre désormais au quotidien dans ma façon de concevoir et développer des logiciels."
   - type: experience
+    title: Expériences professionnelles
     items:
       - position: Sénior Dév Laravel/Vue.js
         organization: Chat3D / Overnight Studio
@@ -65,6 +67,7 @@ sections:
         endDate: 2019-10
         description: Réalisation d'un tunel de vente en Vue.js et intégration à WordPress
   - type: education
+    title: Diplômes
     items:
       - institution: Titre professionnel Développeur Web et Web Mobile
         degree: RNCP37674
